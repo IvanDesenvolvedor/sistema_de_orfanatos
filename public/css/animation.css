@@ -1,0 +1,17 @@
+@keyframes up{
+    from{
+      opacity: 0;
+      transform:translateY(16px) /*pra baixo*/
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);/*termina em zero px*/
+    }
+ }
+ 
+ .animate-up{
+     animation-name:up ;
+     animation-duration: 300ms;
+     animation-fill-mode: backwards;/*assim que ele fizer a transição ele para*/
+ }
+ 
