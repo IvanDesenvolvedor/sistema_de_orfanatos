@@ -1,0 +1,23 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "Sistema para cadastrar orfanatos e agendar visitas as crianças feito html, css, javascript, back-end com nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanDesenvolvedor/sistema_de_orfanatos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanDesenvolvedor/sistema_de_orfanatos/issues"
+  },
+  "homepage": "https://github.com/IvanDesenvolvedor/sistema_de_orfanatos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
