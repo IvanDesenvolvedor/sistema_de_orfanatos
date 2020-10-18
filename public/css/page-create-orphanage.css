@@ -1,47 +1,30 @@
-#page-create-orphanage{
-  display: flex; 
-  min-height:100vh ;
+#page-create-orphanage {
+  display: flex;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
 }
 
-main{
-    flex: 1;
-}
-
-.map-container{
+.map-container {
   margin: 0 0 4rem;
 }
 
-.map-container .leaflet-container{
+.map-container.valid {
+  border: 1px solid #a1e9c5;
+}
+
+.map-container.invalid {
+  border: 1px solid #ffbcd4;
+}
+
+.map-container .leaflet-container {
   border-radius: 20px 20px 0 0;
 }
 
 .map-container footer{
   background: #f5f8fa;
   border-radius: 0 0 20px 20px;
-  color: #5c8599;
-  cursor: pointer;
 }
-
-.new-upload{
-  position: relative;
-}
-
-.new-upload span{
-    position: absolute;
-    right: 12px;
-    bottom: 12px;
-    background: #ffffff;
-    border: 1px solid #d3e3e5;
-    box-sizing: border-box;
-    display: flex;
-    border-radius: 10px;
-    padding: .6rem;
-    cursor: pointer;
-}
-
-
-
-
-
 
 

@@ -3,25 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  font-size: 10px; /* 10px = font-size: 62.5%; ou 16px = 100%*/
+}
+
 body {
   height: 100vh;
   color: white;
- background: #EBF2F5;
-}
-
-:root {
-  font-size: 62.5%;
+  background: #ebf2f5;
 }
 
 body,
 input,
 button,
 textarea {
+  /* font-size: 18px;
   font-weight: 400;
-  font-size: 1.8rem;
-  font-family: "Nunito", sans-serif;
   line-height: 1;
+  font-family: 'Nunito', sans-serif; */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
 }
-
-
-

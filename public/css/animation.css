@@ -1,24 +1,25 @@
-@keyframes up{
-    from{
-      opacity: 0;
-      transform:translateY(16px) /*pra baixo*/
-    }
-    to{
-      opacity: 1;
-      transform: translateY(0);/*termina em zero px*/
-    }
- }
+/* animações*/
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
- @keyframes right{
-  from{
+@keyframes right {
+  from {
     transform: translateX(-100%);
   }
-  to{
+  to {
     transform: translateX(0);
   }
 }
 
-@keyframes appear{
+@keyframes appear {
   from{
     opacity: 0;
   }
@@ -27,20 +28,19 @@
   }
 }
 
- .animate-up{
-     animation-name:up ;
-     animation-duration: 300ms;
-     animation-fill-mode: backwards;/*assim que ele fizer a transição ele para*/
- }
+.animate-appear {
+  animation-name: appear;
+  animation-duration: .3s;
+  animation-fill-mode: backwards;
+}
 
- .animate-right{
-   animation-name: right;
-   animation-duration: 300ms;
- }
+.animate-up {
+  animation-name: up;
+  animation-duration: 0.3s;
+  animation-fill-mode: backwards;
+}
 
- .animate-appear{
-   animation-name: appear;
-   animation-duration: 300s;
-   animation-fill-mode: backwards;
- }
- 
+.animate-right { 
+  animation-name: right;
+  animation-duration: 300ms;
+}

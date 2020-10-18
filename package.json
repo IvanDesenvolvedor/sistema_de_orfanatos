@@ -4,7 +4,7 @@
   "description": "Sistema para cadastrar orfanatos e agendar visitas as crianças feito html, css, javascript, back-end com nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/IvanDesenvolvedor/sistema_de_orfanatos#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5",
+    "sqlite-async": "^1.1.0"
   }
 }
